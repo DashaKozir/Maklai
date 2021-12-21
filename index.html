@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maklai Test</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main>
+    <section class="container">
+        <form id="form" class="form" action="#">
+            <label>
+                Enter the first number:
+                <input name="num1" class="form_item" type="number" placeholder="22, 44, 3, 5" tabindex="1" >
+            </label>
+            <label>
+                Enter the second number:
+                <input name="num2" class="form_item" type="number" placeholder="22, 44, 3" tabindex="2" >
+            </label>
+            <label>
+                Select one of the math operations:
+                <select name="math" class="form_item" tabindex="3">
+                    <option value="+" selected>+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </select>
+            </label>
+            <button id="button" class="button" type="submit">Calculate</button>
+            Result:
+            <output class="output" id="result"></output>
+        </form>
+    </section>
+</main>
+<script src="js/main.js"></script>
+</body>
+</html>
